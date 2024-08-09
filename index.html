@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emojee Application</h1>
+        <hr>
+        <form action="">
+            <input  type="text" name="" id="search_field" placeholder="emojii search">
+           
+        </form>
+        <button id="face" onclick="Displayemojii('face')">Face</button>
+        <button id="smile" onclick="Displayemojii('smile')">Smile</button>
+        <button id="flag" onclick="Displayemojii('flag')">Flag</button>
+        <button id="flag" onclick="Displayemojii('')">ALL</button>
+        <br>
+        <table>
+            <tbody id="emoji_container"></tbody>
+        </table>
+    </div>
+
+    <div id="notification">
+         
+        <h3 id="content" style="position: relative;">Copy to Clipboard</h3>
+    </div>
+    
+
+    <script src="./emojii.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
